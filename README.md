@@ -1,24 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+changes:
+- turbo-drive-confirm: custom confirm dialog with tailwind. One thing missing is modal closing when user clicks elsewhere. Cancel/Confirm no js needed. Esc close works also. Result:
+  ![image](https://github.com/hebiscus/hotwire-cookbook/assets/107350293/0771221b-a802-4e4b-aa0b-7bc18ecbf158)
