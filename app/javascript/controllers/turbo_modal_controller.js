@@ -5,6 +5,5 @@ export default class extends Controller {
   hideModal() {
     this.element.parentElement.removeAttribute("src")
     this.element.remove();
-    console.log("uhhh")
   }
 }
