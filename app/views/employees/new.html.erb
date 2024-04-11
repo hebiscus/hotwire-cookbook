@@ -1,5 +1,8 @@
 <%= turbo_frame_tag "modal" do %>
-<h1>New employee</h1>
-
-<%= render "form", employee: @employee %>
+  <dialog data-controller="turbo-modal" data-action="click->turbo-modal#clickOutside">
+    <h1>New employee</h1>
+    
+    <%= render "form", employee: @employee %>
+    <%= button_tag "Close", data: {action:"turbo-modal#hideModal"}, type: "button"%>
+  </dialog>
 <% end %>

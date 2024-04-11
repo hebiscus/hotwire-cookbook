@@ -14,7 +14,8 @@
  *= require_self
  */
 
-#modal {
+dialog {
+  display: block;
   position: absolute;
   z-index: 2;
   right: 10px;
@@ -24,4 +25,3 @@
   border-radius: 6px;
   background: #bad5ff;
 }
-
